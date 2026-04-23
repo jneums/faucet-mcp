@@ -1,18 +1,18 @@
-# Prometheus Application Manifest
-# This is the permanent, unique identifier for your application.
 namespace: io.github.jneums.faucet-mcp
-
-# This section contains all data for a specific version. This entire package will be submitted for review and locked to the audit of this version.
-# deployment_type: 'global' (shared infrastructure, recommended) or 'provisioned' (dedicated resources)
 submission:
   name: DFINITY Faucet MCP
-  description: Request free test tokens (TESTICP / TICRC1) from the official DFINITY ledger faucet via a single MCP tool. No auth required.
+  description: >-
+    Request free test tokens (TESTICP / TICRC1) from the official DFINITY ledger
+    faucet via a single MCP tool. No auth required.
   publisher: Jesse Neumann
   category: Developer Tools
   deployment_type: global
   repo_url: https://github.com/jneums/faucet-mcp
   mcp_path: /mcp
-  why_this_app: Makes it trivial for AI agents and developers to obtain test tokens on ICP without needing dfx CLI or understanding canister calls. One tool, two token types, zero friction.
+  why_this_app: >-
+    Makes it trivial for AI agents and developers to obtain test tokens on ICP
+    without needing dfx CLI or understanding canister calls. One tool, two token
+    types, zero friction.
   key_features:
     - Request TESTICP (ICP test tokens) by principal or account identifier
     - Request TICRC1 (ICRC-1 test tokens) by principal
@@ -28,5 +28,5 @@ submission:
     icon_url: ''
     banner_url: ''
     gallery_images: []
-  git_commit: '1687d0f47364b4cf1aa49a2562c8dc12ced1edfb'
-  wasm_path: .dfx/local/canisters/faucet_mcp/faucet_mcp.wasm
+  git_commit: f48e3a76a266cdf346c9a7ff5043e61432516e8b
+  wasm_path: ./out/out_Linux_x86_64.wasm
