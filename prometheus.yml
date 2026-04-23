@@ -25,8 +25,8 @@ submission:
     - developer-tools
     - icp
   visuals:
-    icon_url: ''
-    banner_url: ''
+    icon_url: https://github.com/jneums/faucet-mcp/releases/download/v1.0.0-assets/icon-faucet-mcp.png
+    banner_url: https://github.com/jneums/faucet-mcp/releases/download/v1.0.0-assets/banner-faucet-mcp.png
     gallery_images: []
   git_commit: f48e3a76a266cdf346c9a7ff5043e61432516e8b
   wasm_path: ./out/out_Linux_x86_64.wasm
