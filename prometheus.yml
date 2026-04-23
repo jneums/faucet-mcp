@@ -1,29 +1,32 @@
+# Prometheus Application Manifest
+# This is the permanent, unique identifier for your application.
 namespace: io.github.jneums.faucet-mcp
-name: DFINITY Faucet MCP
-description: Request free test tokens (TESTICP / TICRC1) from the DFINITY ledger faucet via MCP. Wraps the official dfinity/ledger-faucet canister.
-repo_url: https://github.com/jneums/faucet-mcp
-mcp_path: /mcp
 
+# This section contains all data for a specific version. This entire package will be submitted for review and locked to the audit of this version.
+# deployment_type: 'global' (shared infrastructure, recommended) or 'provisioned' (dedicated resources)
 submission:
   name: DFINITY Faucet MCP
-  description: >
-    A simple MCP server that wraps the official DFINITY ledger faucet canister.
-    Provides a single tool to request 10 free test tokens (TESTICP or TICRC1) 
-    sent to any principal or account identifier. No authentication required.
+  description: Request free test tokens (TESTICP / TICRC1) from the official DFINITY ledger faucet via a single MCP tool. No auth required.
+  publisher: Jesse Neumann
+  category: Developer Tools
+  deployment_type: global
   repo_url: https://github.com/jneums/faucet-mcp
-  why_this_app: >
-    Makes it trivial for AI agents and developers to obtain test tokens on ICP
-    without needing to use dfx CLI or understand canister calls. One MCP tool,
-    two token types, zero friction.
+  mcp_path: /mcp
+  why_this_app: Makes it trivial for AI agents and developers to obtain test tokens on ICP without needing dfx CLI or understanding canister calls. One tool, two token types, zero friction.
   key_features:
     - Request TESTICP (ICP test tokens) by principal or account identifier
     - Request TICRC1 (ICRC-1 test tokens) by principal
     - Fully on-chain Motoko canister wrapping the official DFINITY faucet
     - No authentication required — public and free
-    - Beacon analytics enabled
   tags:
     - faucet
     - tokens
     - testing
     - developer-tools
     - icp
+  visuals:
+    icon_url: ''
+    banner_url: ''
+    gallery_images: []
+  git_commit: ''
+  wasm_path: .dfx/local/canisters/faucet_mcp/faucet_mcp.wasm
