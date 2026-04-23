@@ -28,5 +28,5 @@ submission:
     icon_url: ''
     banner_url: ''
     gallery_images: []
-  git_commit: ''
+  git_commit: '1687d0f47364b4cf1aa49a2562c8dc12ced1edfb'
   wasm_path: .dfx/local/canisters/faucet_mcp/faucet_mcp.wasm
