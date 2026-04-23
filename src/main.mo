@@ -85,7 +85,7 @@ shared ({ caller = deployer }) persistent actor class McpServer(
     serverInfo = {
       name = "faucet-mcp";
       title = "DFINITY Faucet MCP";
-      version = "1.0.0";
+      version = "0.1.0";
     };
     resources = [];
     resourceReader = func(uri) {
