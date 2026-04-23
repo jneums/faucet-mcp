@@ -28,5 +28,5 @@ submission:
     icon_url: https://github.com/jneums/faucet-mcp/releases/download/v1.0.0-assets/icon-faucet-mcp.png
     banner_url: https://github.com/jneums/faucet-mcp/releases/download/v1.0.0-assets/banner-faucet-mcp.png
     gallery_images: []
-  git_commit: '6ec5c76fc25003052b1045d6ebbf059f11be1696'
-  wasm_path: .dfx/local/canisters/faucet_mcp/faucet_mcp.wasm
+  git_commit: f48e3a76a266cdf346c9a7ff5043e61432516e8b
+  wasm_path: ./out/out_Linux_x86_64.wasm
