@@ -1,0 +1,13 @@
+{
+  "canisters": {
+    "faucet_mcp": {
+      "main": "src/main.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "mops sources"
+    }
+  }
+}
