@@ -3,3 +3,5 @@ node_modules/
 .mops/
 mops.lock
 dist/
+.prometheus/
+out/
